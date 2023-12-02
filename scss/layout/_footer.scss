@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    height: 70px;
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $grey;
+
+    font-family: $base-font-family;
+    text-align: center;
+
+    color: $white;
+
+    .attribution {
+        font-size: 11px; 
+        text-align: center;
+        a {
+            color: $white;
+            text-decoration: none;
+            font-weight: bold;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

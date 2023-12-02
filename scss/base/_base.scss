@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: $base-font-size;
+    font-family: $base-font-family, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

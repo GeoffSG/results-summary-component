@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    background-color: $grey;
+    h1 {
+        font-family: $base-font-family;
+        text-align: center;
+        color: $white;
+        margin: 0;
+    }
+}
