@@ -1,3 +1,11 @@
 .container {
-    margin: auto;
+    margin-bottom: auto;
+
+    @include mq('md'){
+        display: flex;
+        margin: auto;
+        
+        border-radius: $base-padding;
+        box-shadow: 1em 1em 4em 2em rgba(0, 0, 0, 0.25);
+    }
 }

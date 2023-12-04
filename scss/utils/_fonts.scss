@@ -21,13 +21,13 @@
 @font-face {
     font-family: 'Hanken Grotesk';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500, 700, 800;
     src: url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
 
 }
 
 $font-url: '../assets/fonts/HankenGrotesk-VariableFont_wght.ttf';
-$font-hanken-grotesk: 'Hanken Grotesk';
+$font-hanken-grotesk: 'Hanken Grotesk', sans-serif ;
 
 @if variable-exists(font-url) {
     @import url($font-url);

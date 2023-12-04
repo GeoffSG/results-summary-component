@@ -1,9 +1,12 @@
 //  Base Vars
 $base-font-family: $font-hanken-grotesk;
 $base-font-size: 16px;
+$base-font-normal: 500;
+$base-font-bold: 700;
+$base-font-bolder: 800;
 
-$base-padding: 20px;
-
+$base-padding: 2rem;
+$base-margin: 1rem;
 
 //  Colors
 $white: hsl(0, 0%, 95%);
@@ -20,3 +23,24 @@ $cobalt-blue: hsl(234, 85%, 45%);
 //  Gradients
 $gradient-purple-light: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
 $gradient-purple-dark: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+
+
+$summary-themes: (
+    'reaction': (
+        'bg': hsla(0, 100%, 67%, .125),
+        'fg': hsl(0, 100%, 67%)
+    ),
+    'memory': (
+        'bg': hsla(39, 100%, 56%, .125),
+        'fg': hsl(39, 100%, 56%)
+    ),
+    'verbal': (
+        'bg': hsla(166, 100%, 37%, .125),
+        'fg': hsl(166, 100%, 37%)
+    ),
+    'visual': (
+        'bg': hsla(234, 85%, 45%, .125),
+        'fg': hsl(234, 85%, 45%)
+    )
+);
+

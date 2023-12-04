@@ -1,7 +1,11 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    // justify-content: space-between;
     height: 100vh;
     background-color: $white;
+
+    @include mq('md') {
+        justify-content: space-between;
+    }
 }

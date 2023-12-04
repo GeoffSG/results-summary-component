@@ -1,9 +1,13 @@
 footer {
     display: flex;
-    height: 70px;
-    min-height: 70px;
+
+    //  Center content
     justify-content: center;
     align-items: center;
+
+    //  Set the min-height
+    height:70px;
+    min-height: 70px;
 
     background-color: $grey;
 
@@ -24,4 +28,6 @@ footer {
             }
         }
     }
+
+
 }

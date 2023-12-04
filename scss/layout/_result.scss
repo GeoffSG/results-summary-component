@@ -1,0 +1,49 @@
+.result {
+    background: $gradient-purple-light;
+
+    padding: calc($base-padding/2) $base-padding;
+
+    color: $light-lavender;
+    text-align: center;
+
+    border-radius: 0 0 $base-padding $base-padding;
+
+    h2 {
+        color: $pale-blue;
+    }
+
+    &-circle {
+        background: $gradient-purple-dark;
+        border-radius: 50%;
+        margin: $base-margin auto;
+
+        $size: 50vw;
+        $max-size: 128px;
+        width: $size;
+        height: $size;
+        max-width: $max-size;
+        max-height: $max-size;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 48px;
+        font-weight: $base-font-bolder;
+
+        color: $pale-blue;
+
+        small {
+            font-weight: $base-font-bold;
+            font-size: .25em;
+            color: $light-lavender;
+        }
+    }
+
+    @include mq('md') {
+        border-radius: $base-padding;
+        width: 50%;
+    }
+
+}

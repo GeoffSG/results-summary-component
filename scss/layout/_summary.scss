@@ -1,0 +1,50 @@
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: $base-padding;
+    background: $white;
+
+    h3 {
+        margin-bottom: $base-margin;
+    }
+
+    &-icon {
+        width: 1.5em;
+    }
+
+    &-data {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        border-radius: 1em;
+        padding: .25em 1em;
+        margin-bottom: .5em;
+
+        .summary-label {
+            display: flex;
+            gap: .5em;
+        }
+
+        @each $summary, $color in $summary-themes {
+            &.summary-#{$summary} {
+                background-color: map-get($color, 'bg');
+                color:  map-get($color, 'fg');
+            }
+        }
+
+        .summary-result {
+            color: $dark-gray-blue;
+            strong {
+                color: $dark-gray-blue;
+                font-weight: $base-font-bolder;
+            }
+        }
+    }
+    @include mq('md') {
+        border-radius: $base-padding;
+        width: 50%;
+    }
+}
