@@ -4,9 +4,8 @@
   - [Links](#links)
   - [Built with](#built-with)
 - [What I learned (Reflection)](#what-i-learned)
-    - [Variables & Naming Things](#the-colors)
-    - [Themes & Maps](#the-colors)
-    - [The Colors](#the-colors)
+    - [Variables & Naming Things](#variables--naming-things)
+    - [Themes & Maps](#themes--maps)
 - [What next?](#what-next)
 
 ## Overview
@@ -63,6 +62,15 @@ This was so I could do something like this...
 
 A for-each loop that goes through each theme and apply their properties. In this case, the `background-color` and `color`.
 
+My goal for these challenges is to practice making elements and components that are abstract enough to reuse in other projects. Like developing my own library that I can build with.
+
+This color map and the for-each loop, I can see this being something that would help. To think out-loud further and brainstorm a bit; I would love to write a piece of code or script that I can add a series a colours into and it applies the themes where I need them. 
 
 ## What next?
-My goal for these challenges is to develop 
+I continue learning and practicing HTML & CSS, with SCSS until it is time to learn Javascript. In the meantime, and perhaps I ought to make this into its own project, I build a SCSS library that I can use. I know there are CSS Libraries out there, but I'm enjoying the process of building my own.
+
+---
+
+Thanks for reading up to now. Hopefully this has been interesting, insightful, or at least not a waste of your time :P
+
+You can find more of my attempts as these challenges on my [Frontend Mentor Page](https://www.frontendmentor.io/profile/GeoffSG).
